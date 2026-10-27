@@ -2,7 +2,9 @@
 
 Analyse des disparités d'accès au dépistage du cancer du sein en Côte d'Ivoire, pour identifier quels leviers (éducation, richesse, milieu, région) cibler en priorité lors des campagnes de sensibilisation type Octobre Rose.
 
-**[📊 Voir le dashboard](reports/dashboard.html)** · **[📄 Rapport des corrections (revue externe)](reports/rapport_corrections.pdf)** · **[📓 Journal de projet](docs/journal.md)**
+**[📊 Dashboard interactif (GitHub Pages)](https://jojobcd.github.io/octobre-rose-cancer-sein-ci/reports/dashboard.html)** · **[📄 Rapport des corrections (revue externe)](reports/rapport_corrections.pdf)** · **[📓 Journal de projet](docs/journal.md)**
+
+![Aperçu du dashboard](reports/dashboard.png)
 
 ## Question business
 
