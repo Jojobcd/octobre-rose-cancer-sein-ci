@@ -114,3 +114,18 @@ Nouveaux points vérifiés (tous confirmés) : (9) deux chiffres restés figés 
 **Corrections apportées** : tous les chiffres du dashboard sont désormais interpolés depuis les variables calculées (plus aucun chiffre tapé à la main) ; 4e KPI ajouté pour l'âge ; titre principal "déterminants"→"fortement associés" ; limites explicites ajoutées (interaction non testée, non-robustesse régionale) ; explication de l'anomalie Yamoussoukro ajoutée en légende ; ligne Abidjan (référence, OR=1) ajoutée au tableau ; rapport PDF étendu à 5 pages (14 points, 2 cycles de revue).
 
 **Mémoire** : les leçons de rigueur de ce cycle de revues ont été enregistrées en mémoire persistante (`feedback_rigueur_analyse_donnees`) pour s'appliquer à ce projet et aux futurs — checklist : chiffres calculés jamais tapés à la main, test de robustesse avant de présenter une conclusion phare, correction de tests multiples, jamais surinterpréter un résultat non significatif, toujours montrer la référence, toujours expliquer une anomalie.
+
+## 2026-10-27 — Publication : GitHub, GitHub Pages, LinkedIn
+
+- Dépôt créé et poussé : github.com/Jojobcd/octobre-rose-cancer-sein-ci (README complet, structure, .gitattributes ajouté pour éviter la corruption CRLF du PDF binaire au commit).
+- GitHub Pages activé (branche master, racine) pour que le dashboard HTML soit réellement rendu/interactif, pas juste affiché en code source brut comme le ferait un simple lien de dépôt.
+- Capture statique du dashboard générée via Playwright/Chromium headless (`notebooks/07_capture_dashboard.py`) → `reports/dashboard.png`, intégrée au README et utilisée pour le post LinkedIn.
+- Post LinkedIn rédigé : narratif complet (recherche de données, méthode, résultats, processus de revue critique), avec appel explicite aux retours/corrections des lecteurs, et une touche humaine assumée (contribution tardive au mois d'Octobre Rose, terminée fin octobre plutôt que pendant).
+
+## 2026-11-02 — Rapport final pour le DHS Program
+
+- Obligation des conditions d'utilisation DHS : transmettre une copie PDF de toute publication issue des données à references@dhsprogram.com — reste à faire par l'utilisateur (nécessite son propre compte email).
+- Rapport de synthèse dédié généré (`notebooks/08_rapport_final_dhs.py` → `reports/rapport_final_dhs.pdf`, 2 pages) : document séparé du journal de corrections interne, présentable pour un tiers — objectif, méthode, résultats clés, aperçu du dashboard, limites, lien du code.
+- Poussé sur GitHub.
+
+**Prochaine étape** : l'utilisateur envoie l'email à references@dhsprogram.com avec `rapport_final_dhs.pdf` en pièce jointe.
